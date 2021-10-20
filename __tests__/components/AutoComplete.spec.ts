@@ -2,7 +2,7 @@ import { shallowMount } from '@vue/test-utils';
 import { JSONUser } from '../../src/types/resources/JSONPlaceholderResponse';
 import { Autocomplete } from '../../src/components';
 
-describe('', () => {
+describe('test autocomplete', () => {
     let wrapper: any;
     let vm: any;
     let users: JSONUser[];
